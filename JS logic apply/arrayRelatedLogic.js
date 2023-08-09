@@ -43,6 +43,10 @@ var oddNumbers = getSumOfOddNumbers(arrayLists);
 console.log('Odd numbers are:',oddNumbers);
 getSumOfOddNumbers(arrayLists);
 
+// find the longest number of an array
+var longestNumber = [33, 42, 44, 22, 56, 75, 65, 46];
+console.log('The longest number:', Math.max(...longestNumber));
+
 // find the longest length item from an array
 function getTallest(friends) {
   let friendsLength = 0;

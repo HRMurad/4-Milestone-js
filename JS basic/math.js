@@ -1,5 +1,5 @@
 // pow
-let result = Math.pow(2, 3);
+let result = Math.pow(4,3);
 console.log(result)
 
 // abs
